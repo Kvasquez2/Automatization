@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConsultaBD" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-16T15:45:00" hostname="TI-586H" time="30.725">
+  <properties/>
+  <testcase name="AfiliadoGenerico()" classname="ConsultaBD" time="30.725"/>
+  <system-out><![CDATA[ConexiÃ³n exitosa!
+]]></system-out>
+  <system-err><![CDATA[ago 16, 2024 10:45:01 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+</testsuite>

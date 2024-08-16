@@ -170,7 +170,6 @@ public class NavigationTest {
         driver.findElement(By.cssSelector("input#frmCrear\\:segundoApellido")).sendKeys(apellido2);
     }
 
-
     private void ingresarNombres() {
         ArrayList<String> nombresMujeres = new ArrayList<>(Arrays.asList(
                 "Maria", "Ana", "Lucia", "Carmen", "Sofia"
@@ -489,6 +488,4 @@ public class NavigationTest {
     private void BOTONGUARDAR() throws InterruptedException {
         driver.findElement(By.cssSelector("button#frmCrear\\:j_idt525")).click();
     }
-    //driver.findElement(By.cssSelector("")).click();
-
 }
