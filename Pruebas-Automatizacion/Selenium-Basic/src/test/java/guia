@@ -1,0 +1,53 @@
+package centro_Regulador;
+
+import conexion.Conexion_BD;
+import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.sql.Connection;
+
+public class general_ContraReferencia {
+
+    private WebDriver driver;
+    private Connection conexion;
+
+    @BeforeEach
+    public void setUp() {
+        // Configuración del ChromeDriver
+        configurarChromeDriver();
+
+        // Conectar a la base de datos
+        configurarConexionBD();
+    }
+
+    private void configurarChromeDriver() {
+        // Establecer la ruta del ChromeDriver desde el paquete resources
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\kvasquez\\Downloads\\pruebas-main\\pruebas-main\\Selenium-Basic\\src\\test\\resources\\chromedriver.exe");
+
+        // Iniciar la instancia del WebDriver
+        driver = new ChromeDriver();
+
+        // Validar si el driver se inició correctamente
+        if (driver != null) {
+            System.out.println("ChromeDriver iniciado correctamente.");
+        } else {
+            System.err.println("Error al iniciar el ChromeDriver.");
+        }
+    }
+
+    private void configurarConexionBD() {
+        // Crear una instancia de la clase Conexion_BD y obtener la conexión
+        Conexion_BD conexionBD = new Conexion_BD();
+        conexion = conexionBD.conectar();
+
+        // Validar si la conexión a la base de datos se estableció correctamente
+        if (conexion != null) {
+            System.out.println("Conexión a la base de datos establecida correctamente.");
+        } else {
+            System.err.println("Error al establecer la conexión a la base de datos.");
+        }
+    }
+
+    // Otros métodos que utilizan `driver` y `conexion`
+}
