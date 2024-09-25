@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConsutaAfiRandom" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-23T22:16:15" hostname="TI-586H" time="83.794">
+  <properties/>
+  <testcase name="ConsulAfiRandom()" classname="ConsutaAfiRandom" time="83.794"/>
+  <system-out><![CDATA[Conexión exitosa!
+Número aleatorio generado: 0
+ELEGIDO NUMERO DE DOCUMENTO : 43283884
+
+--- ° ---
+Ingresando para ver las novedades...
+Total de registros encontrados en las NOVEDADES: 1
+Novedades visualizadas y cerradas.
+--- ° ---
+Ingresando para ver los Programas Especiales...
+No tiene registros disponibles en los Programas Especiales.
+--- ° ---
+Ingresando para ver las Autorizaciones...
+No tiene registros disponibles en las Autorizaciones.
+--- ° ---
+Ingresando para ver los Certificados...
+DESCARGADO CERTIFICADO DE AFILIACION
+NO TIENE CERTIFICADO DE PORTABILIDAD
+Certificados visualizadas y cerradas.
+--- ° ---
+Ingresando para ver las Referencias...
+No tiene registros disponibles en las Referencias.
+--- ° ---
+Ingresando para ver las Pqrsf...
+No tiene registros disponibles en las Pqrsf.
+--- ° ---
+Ingresando para ver los Mipres...
+No tiene registros disponibles en los Mipres.
+--- ° ---
+Ejecución terminada después de 30 segundos.
+]]></system-out>
+  <system-err><![CDATA[sept 23, 2024 5:16:16 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+]]></system-err>
+</testsuite>
